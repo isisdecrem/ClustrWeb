@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+
+body{
+    padding: 0%;
+    margin: 0%; 
+    font-family: 'Montserrat'
+}
+
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px; 
+    color: #f4b869; 
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px; 
+    color: black !important;  
+    font-family: 'Montserrat';
+}
+
+.nav-link:hover{
+    color: #ffa789 !important; 
+}
+
+.active .nav-link{
+    color: #ffa789 !important; 
+}
+
+.menu-right-btn{
+    padding: 13px 46px; 
+    margin-right: 4%; 
+    background-color: transparent;
+    transition-property: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+    color: white; 
+    background-color: #f7cd96; 
+}
+
+.site-content{
+    background-image: url('Images/gradient.png');
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.site-title, site-desc{
+    color: white; 
+    font-family: 'Montserrat';
+}
+
+.site-title{
+    margin-top: 40%;
+    margin-bottom: 6%; 
+    font-size: 50px; 
+    font-weight: bold;
+    padding-left: 20%;
+    letter-spacing: 3px;
+    
+}
+ 
+.site-desc{
+font-size: 25px;
+
+
+}
+
+.firstbutton .site-btn1{
+    margin-left: 50%;
+    background-color: black; 
+    color: white;  
+
+}
+
+.secondbutton .site-btn2{
+    background-color: white;
+    margin-left: 40%;
+    
+    
+}
+
+.secondbutton, .firstbutton{
+    margin-top: 5%;
+    margin-bottom: 40%; 
+}
+
+/* section 1 */
+
+.section-1 .heading-1{
+    margin-top: 8%; 
+    margin-bottom: 4%;;
+    font-size: 50px;
+    font-weight: 900;
+    color: #A0B4C7;
+}
+
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px; 
+}
+
+.section-1 .para-1{
+    font-size: 20px; 
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%; 
+}
+
+.section-1 .card-text, .para-1{
+    color: rgba(0,0,0,0.59); 
+}
+
+.section-1{
+    margin-bottom:8%; 
+}
+ 
+
+/* section 2 */
+.section-2 .container-fluid{
+    background-image: url(/Images/Wireframe.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.section-2 .heading-1{
+    margin-top: 50%;
+    margin-bottom: 50%;
+    color: transparent; 
+}
+
+.section-2 .para-1{
+    color: transparent; 
+    font-size: 100px;
+    padding-bottom: 20%;
+    padding-top: 50%; 
+}
+
+
+/* section 2 */
+.section-3 .display-4{
+    font-family: 'Montserrat'; 
+    font-weight: bold;
+    padding-bottom: 3%;
+    color: #f4b869; 
+}
+
+.section-3 .lead{
+    font-family: 'Montserrat'; 
+    
+}
+
+.section-3 .story{
+    color: #ffa789; 
+    font-size: 25px;
+    font-weight: 900; 
+    padding-bottom: 20%; 
+}
+
+.jumbotron{
+    background-color: white !important ; 
+}
+

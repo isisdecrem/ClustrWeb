@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%; 
+    font-family: 'Montserrat'
+}
+
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px; 
+    color: #f4b869; 
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px; 
+    color: black !important;  
+    font-family: 'Montserrat';
+}
+
+.nav-link:hover{
+    color: #ffa789 !important; 
+}
+
+.active .nav-link{
+    color: #ffa789 !important; 
+}
+
+.menu-right-btn{
+    padding: 13px 46px; 
+    margin-right: 4%; 
+    background-color: transparent;
+    transition-property: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+    color: white; 
+    background-color: #f7cd96; 
+}
+
+ #{
+     margin: 0; 
+     padding: 0; 
+ }
+
+ body{
+    font-family: 'Montserrat'; 
+    font-size: 14px; 
+    font-weight: 400px;
+    color: #777; 
+ }
+
+ h1{
+     font-family: 'Montserrat'; 
+     font-weight: bold; 
+     color: #ffa789; 
+ }
+
+
+ h3{
+     font-family: 'Montserrat'; 
+     font-size: 24px; 
+     color: #f4b869; 
+     font-weight: bold; 
+ }
+
+ #team img{
+     margin-top: -50px; 
+ }
+
+ #team i{
+     font-size: 26px; 
+     color: #555;
+ }
+
+ #team p{
+     font-weight: 500; 
+     font-family: 'Montserrat'; 
+ }
+
+ #team .card{
+     border-radius: 0;
+     box-shadow: 5px 5px 15px #f7cd96;
+     transition: all 0.3s ease-in;
+     -webkit-transition: all 0.3s ease-in;
+     -moz-transition: all 0.3s ease-in; 
+ }
+
+ #team .card:hover{
+     background: #ffa789; 
+     color: #fff; 
+     border-radius: 5px; 
+     border: none; 
+     box-shadow: 5px 5px 10px #9E9E9E; 
+ }
+
+ .team .card:hover h3, #team .card:hover i, #team .card:hover h3{
+     color: #fff; 
+ }
+ a.custom-card,
+ a.custom-card:hover {
+   color: inherit;
+   text-decoration: none;
+ }
+
+.section_title {} .section_subtitle{
+    margin-bottom: 7px; 
+     
+    font-size: 16px; 
+    line-height: 1; 
+    text-transform: uppercase; 
+    color:gray ; 
+   
+    font-size: 20px; 
+    font-family: 'Montserrat'; 
+}
+
+#isis{
+    background-color:#f5f5f5;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+}
+
+.isis_main_title{
+    margin-top: 0; 
+    margin-bottom: 37px;
+    font-size: 30px; 
+    line-height: 1.27; 
+    font-weight: 500; 
+    color: #ffa789; 
+
+}
+
+.about-box{
+    top: 5rem;
+    -webkit-box-shadow: 0 0 0 10px#ffa789 inset; 
+    box-shadow: 0 0 0 10px #ffa789 inset; 
+    margin-right: 0; 
+    margin-top: 0;
+    left: 150px; 
+    position: relative;
+    display: block; 
+    
+}
+
+.box-overlay{
+    top: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000; 
+    opacity: 0.5;
+    z-index: 3; 
+    transform: translateY(30px) translateX(-30px); 
+    -webkit-transform: translateY(30px) translateX(-30px);
+}
+
+.about-box img{
+   
+    transform: translateY(30px) translateX(-30px); 
+    -webkit-transform: translateY(30px) translateX(-30px);
+    width: 100%; 
+    z-index: 1; 
+}
+
+.questions-isis{
+    color: #f0a35b; 
+    font-family: 'Montserrat';
+    font-size: 18px; 
+    font-weight: bold; 
+    padding-bottom: 5px;
+}
+
+
+#anushka{
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+    
+}
+.an_main_title{
+    margin-top: 0; 
+    margin-bottom: 37px;
+    font-size: 30px; 
+    line-height: 1.27; 
+    font-weight: 500; 
+    color: #f4b869; 
+
+}
+
+.about-box-an{
+    top: 5rem;
+    -webkit-box-shadow: 0 0 0 10px #f4b869 inset; 
+    box-shadow: 0 0 0 10px #f4b869 inset; 
+    margin-right: 0; 
+    margin-top: 0;
+    left: 150px; 
+    position: relative;
+    display: block; 
+    
+}
+
+.box-overlay{
+    top: 5rem; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000; 
+    opacity: 0.0;
+    z-index: 3; 
+    transform: translateY(30px) translateX(-30px); 
+    -webkit-transform: translateY(30px) translateX(-30px);
+}
+
+.about-box-an img{
+   
+    transform: translateY(30px) translateX(-30px); 
+    -webkit-transform: translateY(30px) translateX(-30px);
+    width: 100%; 
+    z-index: 1; 
+    
+}
+
+.questions-an{
+    color:#f4cb87; 
+    font-family: 'Montserrat';
+    font-size: 18px; 
+    font-weight: bold; 
+    padding-bottom: 5px;
+}
+
+#brandon{
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+    background-color:#ECF0F2;
+}
+.brandon_main_title{
+    margin-top: 0; 
+    margin-bottom: 37px;
+    font-size: 30px; 
+    line-height: 1.27; 
+    font-weight: 500; 
+    color:#A0B4C7; 
+
+}
+
+.about-box-brandon{
+
+    top: 3rem; 
+    -webkit-box-shadow: 0 0 0 10px  #A0B4C7 inset; 
+    box-shadow: 0 0 0 10px #A0B4C7 inset; 
+    margin-right: 0; 
+    margin-top: 0;
+    left: 150px; 
+    position: relative;
+    display: block; 
+    
+}
+
+.box-overlay{
+    top: 10rem; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000; 
+    opacity: 0.5;
+    z-index: 3; 
+    transform: translateY(30px) translateX(-30px); 
+    -webkit-transform: translateY(30px) translateX(-30px);
+}
+
+.about-box-brandon img{
+   
+    transform: translateY(30px) translateX(-30px); 
+    -webkit-transform: translateY(30px) translateX(-30px);
+    width: 100%; 
+    z-index: 1; 
+}
+
+.questions-brandon{
+    color: #8494a3; 
+    font-family: 'Montserrat';
+    font-size: 18px; 
+    font-weight: bold; 
+    padding-bottom: 5px;
+}
+
+#caleb{
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+}
+.caleb_main_title{
+    margin-top: 0; 
+    margin-bottom: 37px;
+    font-size: 30px; 
+    line-height: 1.27; 
+    font-weight: 500; 
+    color: #806961; 
+
+}
+
+.about-box-caleb{
+    top: 3rem; 
+    -webkit-box-shadow: 0 0 0 10px  #806961 inset; 
+    box-shadow: 0 0 0 10px #806961 inset; 
+    margin-right: 0; 
+    margin-top: 0;
+    left: 150px; 
+    position: relative;
+    display: block; 
+    
+}
+
+.box-overlay{
+    top: 10rem; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000; 
+    opacity: 0.5;
+    z-index: 3; 
+    transform: translateY(30px) translateX(-30px); 
+    -webkit-transform: translateY(30px) translateX(-30px);
+}
+
+.about-box-caleb img{
+   
+    transform: translateY(30px) translateX(-30px); 
+    -webkit-transform: translateY(30px) translateX(-30px);
+    width: 100%; 
+    z-index: 1; 
+}
+
+.questions-caleb{
+    color: #b5958a; 
+    font-family: 'Montserrat';
+    font-size: 18px; 
+    font-weight: bold; 
+    padding-bottom: 5px;
+}
+
+.img-fluid{
+    width: 190px;
+  height: 250px;
+}
